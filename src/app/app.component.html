@@ -1,0 +1,7 @@
+<h2>{{title}}</h2>
+<h1>{{data}}</h1>
+<!-- ======== Child ====== -->
+<app-test (childEvent)="data=$event" [parentComponentData]="name"></app-test>
+
+<app-employee-list></app-employee-list>
+<app-employee-details></app-employee-details>
